@@ -1,0 +1,38 @@
+
+    .center{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h2{
+        color: gold;
+        text-align: center;
+        font-size: 300%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    ul{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 150%;
+    }
+    ol{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 150%;
+        
+    }
+    th, td {
+        padding:5px;
+    }
+    .button {
+        background-color: gold;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
