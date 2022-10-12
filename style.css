@@ -1,38 +1,67 @@
+.divBorder{
+    border: 15px solid #F58840;
+    width: 1000px;
+    background-image: url(https://wallpapers.com/images/hd/spooky-dark-skulls-2pwt906e3ru6fxre-2pwt906e3ru6fxre.jpg);
+}
+div {
+  width: 600px;
+  border: 15px solid #B85252;
+  padding: 50px;
+  margin: auto;
+  background-color: white;
+  float:none;
+}
+p {
+    color: #000000;
+    text-align: center;
+    font-size: 200%;
+}
+h1{
+    color: #F58840;
+    text-align: center;
+    font-size: 300%;
+    
+}
+.button{
+    background-color: #B85252;
+    color: #000000;
+    border: none;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    border-radius: 8px;
+    
 
-    .center{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    h2{
-        color: gold;
-        text-align: center;
-        font-size: 300%;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    ul{
-        margin-left: 20px;
-        margin-right: 20px;
-        font-size: 150%;
-    }
-    ol{
-        margin-left: 20px;
-        margin-right: 20px;
-        font-size: 150%;
-        
-    }
-    th, td {
-        padding:5px;
-    }
-    .button {
-        background-color: gold;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-      }
-      
+}
+a:hover {
+    background-color: white;
+}
+a:hover:not(.active) {
+    background-color: #F58840;
+}
+.active {
+    background-color: #89cff0;
+}
+input:hover {
+    background-color: white;
+}
+input:hover:not(.active){
+    background-color: #F58840 ;
+}
+.active{
+    background-color: #F58840;
+}
+
+canvas{
+    margin: auto;
+    display: block;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    float: none;
+    
+    
+}
+body{
+    background-color:  #EADEDE;
+}
