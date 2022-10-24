@@ -48,5 +48,5 @@ function draw() {
   ellipse(250, 250, 300, 200);
   ellipse(250, 250, 200, 200);
   ellipse(250, 250, 100, 200);
-  strokeweight= strokeweight + .05
+  strokeweight= strokeweight + .10
 }
