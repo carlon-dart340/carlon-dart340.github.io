@@ -1,214 +1,72 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-<style>
-    body{
-        background-color: black;
-    }
-    #container {
-        background-image: url(clouds.jpeg);
-        background-repeat:repeat;
-        color: white;
-        width: 90%;
-        height: auto;
-        padding-left: 30px;
-        padding-right: 30px;
-        margin: 30px;
-    }
+    <head><link rel="stylesheet" href="style.css"></head>
   
-    h1{
-        color: gold;
-        font-size: 500%;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    h2{
-        color: gold;
-        font-size: 250%;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    .button {
-        border: solid 2px gainsboro;
-        color: gold;
-        background-color: black;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 50px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    #buttons{
-        
-        width: 90%;
-        height: 400px;
-        position: absolute;
-        overflow: hidden;
-    }
-    p{
-        font-size: 400%;
-        color: gold;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    #myDiv{
-    padding-bottom: 30px;
-    width: auto;
-    }
+    
+    <body>
+    <header>
+    <div id="header">
+        <ul>
+            <li><a href="Logos.html">Logos</a></li>
+            <li><a href="Photos.html">Photos</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Store.html">Store</a></li>
+        </ul>
+        <div id="logoHeader">
+            <a href="index.html"><img id="logo" src="Logo.PNG" id="logo"></a>
+            <h1>OD EDITS</h1>
+        </div>
+        <hr>
+    <div id="images">
+        <img src="IMG_0821.jpg" alt="">
+        <img src="IMG_0044.JPG" alt="">
+        <img src="IMG_1009.jpg" alt="">
 
-
-</style>
-</head>
-<body>
-<div id="container">
-    <h2>What element would you be able to manipulate based on your personality.</h2>
-    <h1>When is your birthday?</h1>
-    <p></p>
-    <div id="myDiv">
-        <button id="buttonA" class="button">Jan-Mar</button>
-        <button id="buttonB" class="button">Apr-Jun</button>
-        <button id="buttonC"class="button">July-Sep</button>
-        <button id="buttonD" class="button">Oct-Dec</button>
     </div>
-</div>
     
+    <video src="celestial garments.mp4" type=""></video><br>
+    </div>
+    </header>
+        <div id="container">
+            <img class="ig"src="IMG_0821.jpg" alt="">
+            <img class="ig" src="IMG_0042.JPG" alt="">
+            <img class="ig" src="IMG_1001.jpg" alt="">
+            <img class="ig" src="rari.jpg" alt="">
+            <img class="ig"src="fmc.jpg" alt="">
+            <img class="ig" src="hilton.jpg" alt="">
+            <img class="ig" src="bridge.jpg" alt="">
+            <img class="ig" src="american water.jpg" alt="">
 
-  
-   
-  
-
-
-
-    
-</body>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<script>
-    let x=0;
-    $("#buttonA").on("click", function(){
-    x+=1; 
-    console.log(x);
-    })
-    $("#buttonB").on("click", function(){
-    x+=2
-    console.log(x);
-    })
-    $("#buttonC").on("click", function(){
-    x+=3
-    console.log(x);
-    })
-    $("#buttonD").on("click", function(){
-    x+=4
-    console.log(x);
-    })
-
-let question2 = function() {
-        console.log("button was clicked");
-        $("h1").text("How Old Are You?");
-         $("#buttonA").text("17-19");
-         $("#buttonB").text("20-22");
-         $("#buttonC").text("23-25");
-         $("#buttonD").text("26+"); 
-         $("button").on("click", question3);
-     }
-
-let question3 = function() {
-        $("h1").text("What means the most to you out of these choices");
-        $("#buttonA").text("Freedom");
-         $("#buttonB").text("Strength");
-         $("#buttonC").text("Money");
-         $("#buttonD").text("Power"); 
-         $("button").on("click", question4);
+        </div>
+    <div id="footer">
+    <footer>
+        <a href="https://instagram.com/od.edits__"><img class="socials" src="instagram.png" alt=""></a>
+        <a href="https://www.twitch.tv/odmac_"><img class="socials" src="twitch.png" alt=""></a>
+        <a href="https://youtube.com/@odedits1"><img class="socials" src="yt.png" alt=""></a>
+        <a href=""><img class="socials" src="tik tok.png" alt=""></a>
+        <a href=""><img class="socials" src="twitter.png" alt=""></a>
         
-    }
-let question4 = function() {
-    $("h1").text("If someone was getting bullied what would you do?");
-        $("#buttonA").text("Help Them");
-         $("#buttonB").text("Ignore Them");
-         $("#buttonC").text("Bully them too");
-         $("#buttonD").text("Call for Help"); 
-         $("button").on("click", question5);
+        
+        <p>Our mission at OD EDITS is simple: to provide high-quality 
+            services in a timely manner. Our team caters to each projects 
+            specific needs to ensure excellence. We hope you will find what you are
+            looking for. For more information or general inquiries, 
+            feel free to get in touch with us today.
+        </p>
+    </footer>
+    </div>
 
-}
-let question5 = function() {
-    $("h1").text("What is your favorite hobby?");
-        $("#buttonA").text("Sports");
-         $("#buttonB").text("Movies");
-         $("#buttonC").text("Video Games");
-         $("#buttonD").text("Reading"); 
-         $("button").on("click", question6);
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    </body>
 
-}
-let question6 = function() {
-    $("h1").text("What is your favorite season?");
-        $("#buttonA").text("Fall");
-         $("#buttonB").text("Winter");
-         $("#buttonC").text("Summer");
-         $("#buttonD").text("Spring"); 
-         $("button").on("click", question7);
-}
-let question7 = function() {
-    $("h1").text("What is your favorite type of drink?");
-        $("#buttonA").text("Water");
-         $("#buttonB").text("Juice");
-         $("#buttonC").text("Soda");
-         $("#buttonD").text("Coffee/Tea"); 
-         $("button").on("click", question9);
 
-}
-let question8 = function() {
-    $("h1").text("What is your favorite type of weather?");
-        $("#buttonA").text("Sunny");
-         $("#buttonB").text("Rainy");
-         $("#buttonC").text("Cool");
-         $("#buttonD").text("Cloudy"); 
-         $("button").on("click", question10);
-}
-let question9 = function() {
-    $("h1").text("What is your favorite type of music?");
-        $("#buttonA").text("Rap");
-        $("#buttonB").text("Pop");
-        $("#buttonC").text("Rock");
-        $("#buttonD").text("Country"); 
-        $("button").on("click", question10);
-}
-let question10 = function() {
-    $("h1").text("What is the most desirable color to you below?");
-        $("#buttonA").text("Blue");
-         $("#buttonB").text("Purple");
-         $("#buttonC").text("Red");
-         $("#buttonD").text("Green"); 
-         $("button").on("click", question11);
-}
-let question11 = function() {
-    if(x<15){
-        $("h1").text("You can manipulate Water");
-        $("button").hide();
-        $("p").prepend("Based on your selections you tend to be able to go with the flow and just let things be. Most people who can manipute water are seen as nonchalant or non caring");
-        $("#container").css("background-image", "url('water.jpeg')");
 
-    } 
-    else if (x<25){
-        $("h1").text("You can manipulate Fire");
-        $("button").hide();
-        $("p").prepend("Based on your selections you are very passionate and tend to be looked at as outgoing. People often confuse your confidence with arrogance so you are often misunderstood. ")
-        $("#container").css("background-image", "url('fire.jpeg')");
-    }
-    else if(x<35){
-        $("h1").text("You can manipulate Earth");
-        $("button").hide();
-        $("p").prepend("Based on your selections you are the most strong willed in your friend group. You are the friend that everyone always comes to for advice, because you always tell it as it is. ")
-        $("#container").css("background-image", "url('earth.jpeg')");
-    }
-    else{
-        $("h1").text("You can manipute Lightning");
-        $("button").hide();
-        $("p").prepend("Based on your selections you are the outsider in your friend groups. You have the best humor and the best sense of style. People outside your inner circle might see you as weird bu they dont understand how amazing you are. ")
-        $("#container").css("background-image", "url('lightning.jpeg')");
-    }
-}
 
-    $("button").on ("click", question2);
 
-</script>
+
+
+
+
+
 </html>
