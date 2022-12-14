@@ -1,67 +1,231 @@
-.divBorder{
-    border: 15px solid #F58840;
-    width: 1000px;
-    background-image: url(https://wallpapers.com/images/hd/spooky-dark-skulls-2pwt906e3ru6fxre-2pwt906e3ru6fxre.jpg);
-}
-div {
-  width: 600px;
-  border: 15px solid #B85252;
-  padding: 50px;
-  margin: auto;
-  background-color: white;
-  float:none;
-}
-p {
-    color: #000000;
-    text-align: center;
-    font-size: 200%;
-}
-h1{
-    color: #F58840;
-    text-align: center;
-    font-size: 300%;
-    
-}
-.button{
-    background-color: #B85252;
-    color: #000000;
-    border: none;
-    text-align: center;
-    font-size: 32px;
-    text-decoration: none;
-    border-radius: 8px;
-    
 
-}
-a:hover {
-    background-color: white;
-}
-a:hover:not(.active) {
-    background-color: #F58840;
-}
-.active {
-    background-color: #89cff0;
-}
-input:hover {
-    background-color: white;
-}
-input:hover:not(.active){
-    background-color: #F58840 ;
-}
-.active{
-    background-color: #F58840;
+#container{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding-bottom: 0;
+    margin: 0;
+    border: solid 2px white;
+    display: inline-block;
+    text-align: center;
 }
 
-canvas{
-    margin: auto;
-    display: block;
-    top: 0px;
-    position: absolute;
-    left: 0px;
-    float: none;
-    
-    
+ul {
+list-style-type: none;
+margin-top: 50px;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+float: right;
+width: 300px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
 }
 body{
-    background-color:  #EADEDE;
+    background-color: black;
+
 }
+
+#logo{
+    width: auto;
+    height: 100px;
+        
+}
+#logoHeader{
+    width: 30%;
+            
+}
+h1{
+    padding-bottom: 0px;
+    color: white;
+    position: relative;
+    top: -100px;
+    left: 180px;
+}
+h2{
+    color: white;
+    position: relative;
+    font-size: 400%;
+    top: -100px;
+   
+    
+
+    
+}
+p{
+    color: white;
+}
+#header{
+    display: inline;
+}
+.socials{
+    width: 50px;
+    height: 50px;
+}
+img{
+width: 500px;
+height: 400px;
+display: inline-block;
+padding: 14px 16px;
+}
+video{
+    width: 100%;
+    height: 700px;
+}
+#images{
+    margin: 0 auto;
+    width: 1900px;
+    text-align: center;
+}
+.ig{
+width: 400px;
+height: 300px;
+}
+#footer{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+#imgPage{
+    display: inline-block;
+    text-align: center;
+}
+#tr{
+    width: 785px;
+    height: 840px;
+    position: relative;
+    top: -100px;
+}
+#text1{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    top: -700px;
+    left: 900px;
+
+}
+.paragraphs{
+    font-size: 300%;
+}
+#cliff{
+    width: 685px;
+    height: 740px;
+    position: relative;
+    top: -400px;
+    left: 50px;
+}
+#text2{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    top: -930px;
+    left: 900px;
+
+}
+#dice{
+    width: 685px;
+    height: 740px;
+    position: relative;
+    top: -400px;
+    left: 50px;
+}
+#text3{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    top: -1030px;
+    left: 900px;
+
+}
+#logos{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -300px;
+}
+.logoImages{
+    width: auto;
+    height: 500px;
+}
+#bar{
+    position: relative;
+   
+}
+#text4{
+    width: 900px;
+    height: 300px;
+    position: relative;
+    top: -400px;
+    left: 920px;
+
+}
+#bowl{
+    position: relative;
+    padding-bottom: 200px;
+}
+#carlon2{
+    position: relative;
+    top: 400px;
+    left: -200px;
+}
+.about{
+    height: 400px;
+    width: 400px;
+}
+label{
+    color: white;
+    font-size: 400%;
+}
+.imageLabel{
+position: relative;
+display: block;
+
+}
+input{
+    width: 500px;
+    height:100px;
+    font-size: 350%;
+
+}
+#submit{
+width: 500px;
+height: 100px;
+font-size: 200%;
+}
+#lastImages{
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+
+
+
+}
+#form{
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+}
+
+figcaption{
+    color: white;
+}
+frame{
+    display: inline;
+}
+
